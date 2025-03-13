@@ -1,0 +1,111 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    display: flex;
+    min-height: column;
+    min-height: 100vh;
+}
+
+@font-face {
+    font-family: 'Snell Roundhand';
+    
+    src: url('./fonts/SnellRoundhand.woff2') format('woff2'),
+         url('./fonts/SnellRoundhand.woff') format('woff'),
+         url('./fonts/SnellRoundhand.ttf') format('truetype');
+    
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Snell Roundhand', cursive;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #f4f4f4;
+    max-width: 900px;
+    margin: 0;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.portfolio-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.portfolio-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: left;
+}
+
+.skills-section {
+    padding: 50px 20px;
+    background-color: #e9ecef;
+    text-align: center;
+}
+
+.skills-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.skill-item {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.cta-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    padding: 20px 0;
+    width: 100%; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+
+}
