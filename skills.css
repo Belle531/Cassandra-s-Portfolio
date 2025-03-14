@@ -56,8 +56,7 @@ main {
 
 .col-md-3 img {
     object-fit: contain;
-    max-height: 400px;
-    height: 400px;
+    max-height: 300px;
     width: 100%;
 }
 
@@ -66,6 +65,7 @@ main {
     display: flex;
     flex-direction: column;
     background-color:#87CEEB;
+    height: 100px;
    
 }
 
@@ -73,6 +73,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 }
 
 footer {

@@ -5,7 +5,8 @@ Cassandra's Portfolio
 About
 
 Built with
-
+https://www.artguru.ai/ai-art-generator-from-photo/
+https://diffusionart.co/
 Roadmap
 
 Wireframe
