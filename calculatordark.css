@@ -26,6 +26,10 @@ body {
     display: flex;
     flex-direction: column;
 }
+body.dark-theme .calculator {
+    background-color: #333;
+    Color: #fff
+}
 
 header {
    padding-top: 80px !important;
